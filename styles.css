@@ -30,5 +30,5 @@ body {
 
 .quote::before,
 .quote::after {
-  content: '"'; 
+  content: '"';
 }
