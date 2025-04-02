@@ -10,7 +10,7 @@ body {
   text-align: center;
 }
 
-.btn {
+/* .btn {
   padding: 10px 20px;
   font-size: 16px;
   background-color: #007bff;
@@ -20,12 +20,29 @@ body {
   border-radius: 1em;
 }
 
-#toggle-favorite-btn {
-  display: none;
-}
-
 .btn:hover {
   background-color: #0056b3;
+} */
+
+.btn {
+  background: #a4dada;
+}
+.btn {
+  text-decoration: none;
+  display: inline-block;
+  padding: 10px 20px;
+  border-radius: 1em;
+  box-shadow: 0 0 40px 40px #f137a6 inset, 0 0 0 0 #f137a6;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  letter-spacing: 2px;
+  color: white;
+  transition: 0.15s ease-in-out;
+  cursor: pointer;
+}
+.btn:hover {
+  box-shadow: 0 0 10px 0 #f137a6 inset, 0 0 10px 4px #f137a6;
+  color: #f137a6;
 }
 
 .quote {
