@@ -22,3 +22,5 @@ generateBtn.addEventListener("click", () =>
   handleQuote(quotes, setCurrentQuote)
 );
 export { favoriteBtn };
+
+
